@@ -39,7 +39,7 @@ import menu_icon from './menu_icon.png'
 import contact_img from './contact_img.jpg'
 import cross_icon from './cross_icon.png'
 import banco_img from './banco_img.png'
-import about from './about.JPG'
+import about from './about.jpg'
 
 export const assets = {
     logo,

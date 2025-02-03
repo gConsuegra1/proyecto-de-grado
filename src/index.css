@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap');
+@import "tailwindcss";
+
+
+/*Tipos de letra*/
+*{
+  font-family: Outfit;
+}
+
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/*colores comunes*/
+.bg-custom-blue {
+    background-color: #1f3a93;
+  }
+
+.text-custom-blue{
+    color: #1f3a93;
+    
+}
+.text-custom-yellow{
+  color: #e9c01e;
+}
+
+a.active hr{
+    display: block;
+}
+
+/*Encabezado*/
+.nav-link {
+    color: #1f3a93; 
+    text-decoration: none; 
+    font-weight: 500;
+    transition: color 0.3s ease; 
+  }
+  
+ 
+  .nav-link.active .underline {
+    display: block; 
+    background-color:#1f3a93; 
+  }
+  
+ 
+  .nav-link:hover {
+    color: #e9c01e; 
+  }
+  
+  .nav-link .underline {
+    width: 50%; 
+    height: 2px;
+    background-color: transparent; 
+    display: none; 
+    transition: background-color 0.3s ease; 
+  }
+  
+
+  .nav-link:hover .underline {
+    background-color: #e9c01e; 
+  }
+  
+  .icon {
+    color: #1f3a93;
+    transition: color 0.3s ease;
+  }
+  
+  .icon:hover {
+    color:#e9c01e;
+  }
+
+  ::-webkit-scrollbar{
+    display:none;
+  }
+
+  @media (max-width:640px){
+    a.active{
+      background-color: #e9c01e;
+      color: #646e8f;
+    }
+  }

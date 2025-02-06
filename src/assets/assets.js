@@ -20,6 +20,27 @@ import camiseta_d_2 from './camiseta_d_2.JPG'
 import camiseta_d_3 from './camiseta_d_3.JPG'
 import camiseta_d_4 from './camiseta_d_4.JPG'
 
+import falda1 from './falda1.jpg'
+import falda2 from './falda2.jpg'
+import falda3 from './falda3.jpg'
+
+import chompad1 from './chompad1.jpg'
+import chompad2 from './chompad2.jpg'
+import chompad3 from './chompad3.jpg'
+import chompad4 from './chompad4.jpg'
+
+import pantalond1 from './pantalond1.jpg'
+import pantalond2 from './pantalond2.jpg'
+import pantalond3 from './pantalond3.jpg'
+import pantalond4 from './pantalond4.jpg'
+
+import chompap1 from './chompap1.jpg'
+import chompap2 from './chompap2.jpg'
+import chompap3 from './chompap3.jpg'
+import chompap4 from './chompap4.jpg'
+
+
+
 
 
 
@@ -39,7 +60,7 @@ import menu_icon from './menu_icon.png'
 import contact_img from './contact_img.jpg'
 import cross_icon from './cross_icon.png'
 import banco_img from './banco_img.png'
-import about from './about.jpg'
+import about from './about.JPG'
 
 export const assets = {
     logo,
@@ -97,7 +118,7 @@ export const products = [
         subCategory: "EE.FF",
         sizes: ["34","36","38","40", "42", "44", ],
         date: 1716234545448,
-        bestseller: true
+        bestseller: false
     },
     {
         _id: "aaaad",
@@ -111,6 +132,53 @@ export const products = [
         date: 1716621345448,
         bestseller: true
     },
-    
+    {
+        _id: "aaaae",
+        name: "Falda de diario",
+        description: "Falda escolar de alta calidad, diseñada para brindar comodidad y durabilidad. Confeccionada en tela resistente, de ajuste cómodo y corte clásico",
+        price: 25,
+        image: [falda1,falda2,falda3],
+        category: "Semanal",
+        subCategory: "Diario",
+        sizes: ["34","36","38","40", "42", "44",],
+        date: 1716634345448,
+        bestseller: true
+    },
+    {
+        _id: "aaaaf",
+        name: "Jean escolar",
+        description: "Jean escolar clásico, resistente y cómodo. Diseño con ajuste regular, ideal para el uso diario. Fabricado con mezclilla de alta calidad para mayor durabilidad. ",
+        price: 30,
+        image: [pantalond1,pantalond2,pantalond3,pantalond4],
+        category: "Semanal",
+        subCategory: "Diario",
+        sizes: ["34","36","38","40", "42", "44", ],
+        date: 1716621345448,
+        bestseller: false
+    },
+    {
+        _id: "aaaac",
+        name: "Chompa de Diario",
+        description: "Chompa escolar clásica, ideal para el uso diario. Fabricada con materiales cómodos y resistentes, brinda abrigo y durabilidad. ",
+        price: 35,
+        image: [chompad1,chompad2,chompad3,chompad4],
+        category: "Semanal",
+        subCategory: "Diario",
+        sizes: ["34","36","38","40", "42", "44", ],
+        date: 1716234545448,
+        bestseller: true
+    },
+    {
+        _id: "aaaad",
+        name: "Chompa de Promo 2024-25",
+        description: "Luce con orgullo tu promoción con esta chompa exclusiva de la Clase 2024-2025. Diseñada para brindar comodidad y estilo, cuenta con un ajuste moderno, materiales de alta calidad y un diseño personalizado que representa tu generación.",
+        price: 40,
+        image: [chompap1,chompap2,chompap3,chompap4],
+        category: "Promo",
+        subCategory: "",
+        sizes: ["34","36","38","40", "42", "44", ],
+        date: 1716621345448,
+        bestseller: false
+    },
 
 ]

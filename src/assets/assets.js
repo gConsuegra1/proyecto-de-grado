@@ -157,7 +157,7 @@ export const products = [
         bestseller: false
     },
     {
-        _id: "aaaac",
+        _id: "aaaag",
         name: "Chompa de Diario",
         description: "Chompa escolar clásica, ideal para el uso diario. Fabricada con materiales cómodos y resistentes, brinda abrigo y durabilidad. ",
         price: 35,
@@ -169,7 +169,7 @@ export const products = [
         bestseller: true
     },
     {
-        _id: "aaaad",
+        _id: "aaaah",
         name: "Chompa de Promo 2024-25",
         description: "Luce con orgullo tu promoción con esta chompa exclusiva de la Clase 2024-2025. Diseñada para brindar comodidad y estilo, cuenta con un ajuste moderno, materiales de alta calidad y un diseño personalizado que representa tu generación.",
         price: 40,
